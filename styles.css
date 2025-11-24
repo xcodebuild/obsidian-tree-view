@@ -1,0 +1,26 @@
+.tree-view-wrap { height: 100%; display: flex; flex-direction: column; }
+.tree-view-header { display: flex; align-items: center; justify-content: space-between; padding: 6px 8px; border-bottom: 1px solid var(--background-modifier-border); background-color: var(--background-secondary); }
+.tree-view-left { display: flex; align-items: center; gap: 8px; }
+.tree-view-title { font-weight: 600; color: var(--text-normal); }
+.tree-view-right { display: flex; align-items: center; gap: 6px; }
+.tree-view-btn { border: none; background: var(--background-modifier-hover); color: var(--text-muted); padding: 4px 8px; border-radius: 6px; cursor: pointer; }
+.tree-view-btn.is-on { color: var(--text-normal); }
+.tree-view-btn.is-off { opacity: 0.6; }
+.tree-view-search { border: 1px solid var(--background-modifier-border); background: var(--background-primary); color: var(--text-normal); border-radius: 6px; padding: 4px 8px; min-width: 160px; }
+.tree-view-body { flex: 1; overflow: auto; padding: 6px; }
+.tree-view-section { margin-bottom: 8px; }
+.tree-view-section-title { font-size: 12px; font-weight: 600; color: var(--text-muted); margin: 4px 0 4px 4px; }
+.tree-view-row { display: flex; align-items: center; gap: 8px; padding: 4px 6px; border-radius: 6px; user-select: none; }
+.tree-view-row:hover { background: var(--background-modifier-hover); }
+.tree-view-bullet { width: 16px; text-align: center; color: var(--text-muted); cursor: pointer; }
+.tree-view-name { flex: 1; cursor: pointer; color: var(--text-normal); }
+.tree-view-open { width: 20px; text-align: center; color: var(--text-muted); cursor: pointer; }
+.tree-view-open:hover { color: var(--interactive-accent); }
+.tree-view-name.is-link:hover { color: var(--interactive-accent); }
+.tree-view-meta { display: flex; gap: 6px; }
+.tree-view-badge { font-size: 12px; padding: 2px 6px; border-radius: 999px; background: var(--background-modifier-hover); color: var(--text-muted); }
+.tree-view-badge.forward { color: var(--interactive-accent); }
+.tree-view-children { margin-left: 0; border-left: 1px dashed var(--background-modifier-border); }
+.tree-view-content { padding: 6px 8px; margin: 4px 0 4px 24px; background: var(--background-secondary); border-radius: 6px; }
+.tree-view-input { width: 100%; border: 1px solid var(--background-modifier-border); border-radius: 6px; padding: 6px; background: var(--background-primary); color: var(--text-normal); }
+.tree-view-textarea { width: 100%; min-height: 120px; border: 1px solid var(--background-modifier-border); border-radius: 6px; padding: 6px; background: var(--background-primary); color: var(--text-normal); }
